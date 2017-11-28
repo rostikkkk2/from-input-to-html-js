@@ -10,10 +10,13 @@ function(){
     this.inputPasswordHtml = function(){
       document.getElementById('input-password').innerHTML = document.getElementById("password").value;
     };
+    this.resultInputsHtml = function(){
+      this.inputNumHtml();
+      this.inputNameHtml();
+      this.inputPasswordHtml();
+    };
   }
-  new allInputsToHtml().inputNumHtml();
-  new allInputsToHtml().inputNameHtml();
-  new allInputsToHtml().inputPasswordHtml();
+  new allInputsToHtml().resultInputsHtml();
 });
 
 
