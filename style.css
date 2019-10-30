@@ -1,0 +1,16 @@
+.registr-elements{
+  height: 900px;
+  background-color: #d7d7d7;
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.sented-registr-elem{
+  background-color: rgb(236, 248, 224);;
+  width: 50%;
+  display: inline-block;
+  float: right;
+  height: 900px;
+  text-align: center;
+}
